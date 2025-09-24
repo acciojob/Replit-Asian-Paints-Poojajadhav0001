@@ -1,5 +1,5 @@
 //your JS code here. If required.
-unction cells() {
+function cells() {
   const arr = [];
   for (let i = 1; i <= 9; i++) arr.push(document.getElementById(String(i)));
   return arr;
